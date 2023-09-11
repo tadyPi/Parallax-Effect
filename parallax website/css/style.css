@@ -94,7 +94,7 @@ p {
 
     .ptext {
         color: rgb(177, 225, 57);
-        padding: auto;
+        padding: .2rem;
         align-content: center;
         lighting-color: black;
     }
