@@ -6,7 +6,7 @@ html {
     font-family: lato, sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666;
+    /*color: #666;*/
 }
 
 .pimg1,
@@ -58,7 +58,7 @@ html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #217adf;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ html {
 
 .ptext .border {
 
-    color: rgb(177, 225, 57);
+    /*color: rgb(177, 225, 57);*/
     padding: auto;
 }
 
@@ -74,11 +74,39 @@ html {
     background-color: transparent;
 }
 
+p {
+    text-align: left;
+    letter-spacing: .1rem;
+    padding: auto;
+}
+
 @media(max-width: 568px) {
 
+    .html,
+    .body,
     .pimg1,
     .pimg2,
     .pimg3 {
         background-attachment: scroll;
+        /* border: solid 1px #fcfdfd; */
+
+    }
+
+    .ptext {
+        color: rgb(177, 225, 57);
+        padding: auto;
+        align-content: center;
+        lighting-color: black;
+    }
+
+    .section-light {
+        background-color: #f8f8f8;
+        color: #161616;
+        border: solid 1px #151515;
+        justify-content: start;
+    }
+
+    .section-dark {
+        border: solid 1px #fcfdfd;
     }
 }
